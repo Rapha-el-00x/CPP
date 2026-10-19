@@ -45,6 +45,8 @@ int main() {
   std::cout << "\nPassword shouldn't be less than 5, nor more than 12." << std::endl;
   std::cout << "Input Your Password: ";
   std::cin >> psswd;
+
+  // start the if else
   if (psswd.length() < 5) {
     std::cout << "Password is too short!" << std::endl;
     exit(0);
