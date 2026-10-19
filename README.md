@@ -1,7 +1,7 @@
-# College Projects with C++ 
-It's mostly would be my projects on using C++
+# C++ 
+It's mostly would be my testing ground, practices and my college projects.
 
-Some were full of crap, and some were not.
+This repo is primarily focused on using C++ 
 
-Expect none. 
+Expect none from a beginner.
 
