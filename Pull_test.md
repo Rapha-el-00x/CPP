@@ -1,3 +1,5 @@
-# Noob
+# Noob's Note
 
-# What a Noob!!!!!
+I'm just a noob...
+
+I'm learning.. though... loved procrastinate a lot.
