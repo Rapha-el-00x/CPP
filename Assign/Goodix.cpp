@@ -71,7 +71,7 @@ int main() {
   // removes the buffer again just in case
   std::cin.ignore(100, '\n');
   if (prompt == 'y' || prompt == 'Y') {
-    std::cout << "\n\n" << "\033[33m" << "[ ----- PROFIL MAHASISWA ----- ]" << "\033[0m" << std::endl;
+    std::cout << "\n" << "\033[33m" << "[ ----- PROFIL MAHASISWA ----- ]" << "\033[0m" << std::endl;
     std::cout << "Nama                : " << nama << std::endl;
     std::cout << "NIM                 : " << nim << std::endl;
     std::cout << "Kelas               : " << kelas << std::endl;
