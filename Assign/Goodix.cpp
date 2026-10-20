@@ -8,7 +8,7 @@
 
 int main() {
   // declare variables
-  std::string nama, kelas, hobi, tgl, prodi, faculty, department;
+  std::string nama, kelas, hobi, tgl, relg, address, prodi, faculty, department;
   char prompt;
   int umur;
   std::cout << "--- FORM BIODATA MAHASISWA ---" << std::endl;
@@ -37,6 +37,12 @@ int main() {
   std::cin.ignore(100, '\n');
   std::cout << "Tempat Tanggal Lahir: ";
   std::getline(std::cin, tgl);
+  // religion input
+  std::cout << "Agama: ";
+  std::getline(std::cin, relg);
+  // address input
+  std::cout << "Alamat lengkap: ";
+  std::getline(std::cin, address);
   // hobby input
   std::cout << "Hobi: ";
   std::getline(std::cin, hobi); 
@@ -63,6 +69,8 @@ int main() {
     std::cout << "Jurusan: " << department << std::endl;
     std::cout << "Program Studi: " << prodi << std::endl;
     std::cout << "Tempat Tanggal Lahir: " << tgl << std::endl;
+    std::cout << "Agama: " << relg << std::endl;
+    std::cout << "Alamat: " << address << std::endl;
     std::cout << "Umur: " << umur << " Tahun" << std::endl;
     std::cout << "Hobi: " << hobi << std::endl;
     
